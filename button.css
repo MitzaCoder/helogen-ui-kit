@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flx-button {
+    @apply text-sm rounded-sm text-white py-1 px-4;
+  }
+
+  .flx-button-primary {
+    @apply bg-blue-500;
+  }
+
+  .flx-button-secondary {
+    @apply bg-gray-500;
+  }
+
+  .flx-button-success {
+    @apply bg-green-500;
+  }
+
+  .flx-button-info {
+    @apply bg-blue-500;
+  }
+
+  .flx-button-warning {
+    @apply bg-yellow-500;
+  }
+
+  .flx-button-help {
+    @apply bg-purple-500;
+  }
+
+  .flx-button-danger {
+    @apply bg-red-500;
+  }
+}
